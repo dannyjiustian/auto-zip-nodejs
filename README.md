@@ -8,10 +8,13 @@ Script ini digunakan untuk:
 
 ---
 
-## 📂 Contoh Struktur Awal
+## 📂 Struktur Folder yang Disarankan
+
+Letakkan script `script.js` di **root project**, lalu folder yang ingin di-zip di dalamnya.
 
 ```
 project_folder/
+├── script.js
 └── folder_data_yang_mau_di_zip/
     ├── data.pdf
     ├── folder_a/
@@ -43,7 +46,7 @@ npm install fs-extra archiver readline-sync
 
 2. Jalankan:
 ```bash
-node script.js
+node zip.js
 ```
 
 3. Masukkan nama folder saat diminta, contoh:
