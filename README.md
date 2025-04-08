@@ -43,7 +43,7 @@ npm install fs-extra archiver readline-sync
 
 2. Jalankan:
 ```bash
-node zip.js
+node script.js
 ```
 
 3. Masukkan nama folder saat diminta, contoh:
